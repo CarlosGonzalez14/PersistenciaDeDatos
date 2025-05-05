@@ -1,3 +1,5 @@
+package com.example.persistenciadedatos.utils
+
 import android.content.Context
 
 object UserPrefs {

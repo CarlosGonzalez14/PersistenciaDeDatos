@@ -11,6 +11,12 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.persistenciadedatos.data.AppDatabase
+import com.example.persistenciadedatos.ui.viewmodel.TaskViewModel
+import com.example.persistenciadedatos.repository.TaskRepository
+import com.example.persistenciadedatos.ui.navigation.Screen
+import com.example.persistenciadedatos.ui.screens.TaskScreen
+import com.example.persistenciadedatos.ui.screens.LoginScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

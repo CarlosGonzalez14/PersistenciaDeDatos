@@ -1,3 +1,5 @@
+package com.example.persistenciadedatos.data
+
 import androidx.room.*
 import kotlinx.coroutines.flow.Flow
 

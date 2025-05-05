@@ -6,7 +6,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
-import com.example.persistenciadedatos.Screen
+import com.example.persistenciadedatos.ui.navigation.Screen
 import com.example.persistenciadedatos.utils.UserPrefs
 import androidx.compose.ui.platform.LocalContext
 
